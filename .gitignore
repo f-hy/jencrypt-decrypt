@@ -1,0 +1,13 @@
+*__pycache__*
+# f/
+**/f.*
+**/.cache/
+**/.idea/
+**/.vscode/
+**/models/
+**/results/
+**/logs/
+*.h5
+*.zip
+*.tar.gz
+!*.py

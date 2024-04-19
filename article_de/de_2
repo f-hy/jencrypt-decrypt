@@ -1,0 +1,285 @@
+We are living in a world which faces a rapidly increasing amount of data to be
+dealt with on a daily basis. In the last decade, the steady improvement of data
+storage devices and means to create and collect data along the way, influenced
+the manner in which we deal with information. Most of the time, data is stored
+without filtering and refinement for later use. Virtually every branch of industry Raw data has no value in
+itself, only the extracted
+information has value
+or business, and any political or personal activity, nowadays generates vast
+amounts of data. Making matters worse, the possibilities to collect and store
+data increase at a faster rate than our ability to use it for making decisions.
+However, in most applications, raw data has no value in itself; instead, we want
+to extract the information contained in it.
+The information overload problem refers to the danger of getting lost in data,
+which may be:
+- irrelevant to the current task at hand,
+- processed in an inappropriate way, or
+- presented in an inappropriate way.
+Due to information overload, time and money are wasted, scientific and Time and money are
+wasted and opportunities
+are lost
+industrial opportunities are lost because we still lack the ability to deal with
+the enormous data volumes properly. People in both their business and private
+lives, decision-makers, analysts, engineers, emergency response teams alike,
+are often confronted with large amounts of disparate, conflicting and dynamic
+information, which are available from multiple heterogeneous sources. There
+is a need for effective methods to exploit and use the hidden opportunities and
+knowledge resting in unexplored data resources.
+In many application areas, success depends on the right information being Success depends on
+availability of the right
+information
+available at the right time. Nowadays, the acquisition of raw data is no longer
+the main problem. Instead, it is the ability to identify methods and models,
+which can turn the data into reliable and comprehensible knowledge. Any
+technology, that claims to overcome the information overload problem, should
+answer the following questions:
+- Who or what defines the ’relevance of information’ for a given task?
+- How can inappropriate procedures in a complex decision making process be
+identified?
+- How can the resulting information be presented in a decision-oriented or task-
+oriented way?
+2 Introduction
+With every new application, processes are put to the test, possibly under
+circumstances totally different from the ones they have been designed for.
+The awareness of the problem of how to understand and analyse our data has
+greatly increased in the last decade. Even though we implement more powerful
+tools for automated data analysis, we still face the problem of understanding
+and ’analysing our analyses’ in the future – fully automated search, filter and
+analysis only work reliably for well-defined and well-understood problems.
+The path from data to decision is typically fairly complex. Fully automated
+data processing methods may represent the knowledge of their creators, but
+they lack the ability to communicate their knowledge. This ability is crucial.
+If decisions that emerge from the results of these methods turn out to be
+wrong, it is especially important to be able to examine the processes that are
+responsible.
+The overarching driving vision of visual analytics is to turn the information Visual analytics aims at
+making data and
+information processing
+transparent
+overload into an opportunity: just as information visualisation has changed our
+view on databases, the goal of visual analytics is to make our way of processing
+data and information transparent for an analytic discourse. The visualisation of
+these processes will provide the means of examining the actual processes in-
+stead of just the results. Visual analytics will foster the constructive evaluation,
+correction and rapid improvement of our processes and models and ultimately
+theimprovementofourknowledgeandourdecisions.
+On a grand scale, visual analytics provides technology that combines the
+strengths of human and electronic data processing. Visualisation becomes the
+medium of a semi-automated analytical process, where humans and machines
+cooperate using their respective, distinct capabilities for the most effective
+results. The user has to be the ultimate authority in directing the analysis. In Visual analytics combines
+the strengths of humans
+and computers
+addition, the system has to provide effective means of interaction to focus on
+their specific task. In many applications, several people may work along the
+processing path from data to decision. A visual representation will sketch this
+path and provide a reference for their collaboration across different tasks and at
+different levels of detail.
+The diversity of these tasks cannot be tackled with a single theory. Visual
+analytics research is highly interdisciplinary and combines various related
+research areas such as visualisation, data mining, data management, data fusion,
+statistics and cognition science (among others). One key idea of visual analytics
+is that integration of all these diverse areas is a scientific discipline in its
+own right. Application domain experts are becoming increasingly aware that
+visualisation is useful and valuable, but often ad hoc solutions are used, which
+rarely match the state of the art in interactive visualisation science, much less
+the full complexity of the problems, for which visual analytics aims to seek
+answers. Even if the awareness exists, that scientific analysis and results
+must be visualised in one way or the other. In fact, all related research
+areas in the context of visual analytics research conduct rigorous science,
+each in their vibrant research communities. One main goal of this book is to
+demonstrate that collaboration can lead to novel, highly effective analysis tools,
+contributing solutions to the information overload problem in many important
+domains.
+1.2 An Historical Perspective on Visual Analytics 3
+Because visual analytics is an integrating discipline, application specific re-
+search areas can contribute existing procedures and models. Emerging from
+highly application-oriented research, research communities often work on
+specific solutions using the tools and standards of their specific fields. The
+requirements of visual analytics introduce new dependencies between these
+fields.
+The integration of the previously mentioned disciplines into visual analytics
+will result in a set of well-established and agreed upon concepts and theories,
+allowing any scientific breakthrough in a single discipline to have a potential
+impact on the whole visual analytics field. In return, combining and upgrading
+these multiple technologies onto a new general level will have a great impact
+on a large number of application domains.
+1.2 An Historical Perspective on Visual Analytics
+Automatic analysis techniques such as statistics and data mining developed
+independently from visualisation and interaction techniques. However, some
+key thoughts changed the rather limited scope of the fields into what is
+today called visual analytics research. One of the most important steps in Early visual analytics:
+exploratory data analysis
+this direction was the need to move from confirmatory data analysis (using
+charts and other visual representations to just present results) to exploratory
+data analysis (interacting with the data/results), which was first stated in the
+statistics research community by John W. Tukey in his 1977 book, Exploratory
+Data Analysis [116] .
+With improvements in graphical user interfaces and interaction devices, a re-
+searchcommunitydevotedtheireffortstoinformationvisualisation [25, 27, 104, 122] .
+Atsomestage,thiscommunityrecognisedthepotentialofintegratingtheuserin Visual data exploration
+and visual data mining
+the knowledge discovery and data mining process through effective and efficient
+visualisation techniques, interaction capabilities and knowledge transfer. This
+led to visual data exploration and visual data mining [64] . This integration
+considerably widened the scope of both the information visualisation and
+the data mining fields, resulting in new techniques and many interesting and
+important research opportunities.
+Two of the early uses of the term visual analytics were in 2004 [125] and a year
+later in the research and development agenda, Illuminating the Path [111] . More Since 2004: visual
+analytics
+recently, the term is used in a wider context, describing a new multidisciplinary
+field that combines various research areas including visualisation, human-
+computer interaction, data analysis, data management, geo-spatial and temporal
+dataprocessing, spatialdecisionsupportandstatistics [67, 5] .
+Despite the relatively recent use of the term visual analytics, characteristics Some earlier systems
+exhibited the
+characteristics of visual
+analytics
+of visual analytics applications were already apparent in earlier systems, such
+as the CoCo system created in the early 1990s to achieve improvement in the
+design of a silicon chip [32] . In this system, numerical optimisation algorithms
+alone were acknowledged to have serious disadvantages, and it was found that
+some of these could be ameliorated if an experienced chip designer continually
+4 Introduction
+monitored and guided the algorithm when appropriate. The Cockpit interface
+supported this activity by showing, dynamically, hierarchically related and
+meaningful indications of chip performance and sensitivity information, as well
+as on-the-fly advice by an artificial intelligence system, all of which information
+could be managed to interactively.
+1.3 Overview
+This book is the result of a community effort of the partners of the VisMaster
+Coordinated Action funded by the European Union. The overarching aim of
+this project was to create a research roadmap that outlines the current state of
+visual analytics across many disciplines, and to describe the next steps to take
+in order to form a strong visual analytics community, enabling the development
+of advanced visual analytic applications. The first two chapters introduce the
+problem space and define visual analytics. Chapters 3 to 8 present the work of
+the specialised working groups within the VisMaster consortium. Each of these
+chapters follow a similar structure – the motivation section gives an outline
+of the problem and relevant background information; the next section presents
+an overview of the state of the art in the particular domain, with reference to
+visual analytics; challenges and opportunities are then identified; and finally
+in the next steps section, suggestions, pertinent to the subject of the chapter,
+are put forward for discussion. Higher level recommendations for the direction
+for future research in visual analytics, put forward by the chapter authors are
+collectively summarised in the final chapter. We now outline the chapters in
+more detail.
+Chapter 2 describes some application areas for visual analytics and puts Daniel A. Keim
+Jörn Kohlhammer
+Florian Mansmann
+Thorsten May
+Franz Wanner
+the size of the problem into context, and elaborates on the definition of
+visual analytics. The interdisciplinary nature of this area is demonstrated
+by considering the scientific fields that are an integral part of visual analyt-
+ics.
+Chapter 3 reviews the field of data management with respect to visual analytics Giuseppe Santucci
+Helwig Hauser
+and reviews current database technology. It then summarises the problems
+that can arise when dealing with large, complex and heterogeneous datasets
+or data streams. A scenario is given, which illustrates tight integration of
+data management and visual analytics. The state of the art section also
+considers techniques for the integration of data and issues relating to data
+reduction, including visual data reduction techniques and the related topic
+of visual quality metrics. The challenges section identifies important issues,
+such as dealing with uncertainties in the data and the integrity of the results,
+the management of semantics (i.e., data which adds meaning to the data
+values), the emerging area of data streaming, interactive visualisation of large
+databases and database issues concerning distributed and collaborative visual
+analytics.
+1.3 Overview 5
+Chapter 4 considers data mining, which is seen as fundamental to the automated Kai Puolamäki
+Alessio Bertone
+Roberto Therón
+Otto Huisman
+Jimmy Johansson
+Silvia Miksch
+Panagiotis Papapetrou
+Salvo Rinzivillo
+analysis components of visual analytics. Since today’s datasets are often
+extremely large and complex, the combination of human and automatic analysis
+is key to solving many information gathering tasks. Some case studies are
+presented which illustrate the use of knowledge discovery and data mining
+(KDD) in bioinformatics and climate change. The authors then pose the
+question of whether industry is ready for visual analytics, citing examples of
+the pharmaceutical, software and marketing industries. The state of the art
+section gives a comprehensive review of data mining/analysis tools such as
+statistical and mathematical tools, visual data mining tools, Web tools and
+packages. Some current data mining/visual analytics approaches are then
+described with examples from the bioinformatics and graph visualisation fields.
+Technical challenges specific to data mining are described such as achieving
+data cleaning, integration, data fusion etc. in real-time and providing the
+necessary infrastructure to support data mining. The challenge of integrating
+the human into the data process to go towards a visual analytics approach is
+discussed together with issues regarding its evaluation. Several opportunities
+are then identified, such as the need for generic tools and methods, visualisation
+of models and collaboration between the KDD and visualisation communi-
+ties.
+Chapter 5 describes the requirements of visual analytics for spatio-temporal Gennady Andrienko
+Natalia Andrienko
+Heidrun Schumann
+Christian Tominski
+Urska Demsar
+Doris Dransch
+Jason Dykes
+Sara Fabrikan
+Mikael Jern
+Menno-Jan Kraak
+applications. Space (as in for example maps) and time (values change over
+time) are essential components of many data analysis problems; hence there is
+astrongneedforvisualanalyticstoolsspecificallydesignedtodealwiththepar-
+ticular characteristics of these dimensions. Using a sizeable fictitious scenario,
+the authors guide the reader towards the specifics of time and space, illustrating
+the involvement of various people and agencies, and the many dependencies
+and problems associated with scale and uncertainties in the data. The current
+state of the art is described with a review of maps, geographic information
+systems, the representation of time, interactive and collaborative issues, and the
+implication of dealing with massive datasets. Challenges are then identified,
+such as dealing with diverse data at multiple scales, and supporting a varied set
+of users, including non-experts.
+Chapter 6 highlights the fact that currently most visual analytics application Jean-Daniel Fekete
+are custom-built stand-alone applications, using for instance, in-memory data
+storage rather than database management systems. In addition, many other
+common components of visual analytics applications can be identified and po-
+tentially built into a unifying framework to support a range of applications. The
+author of this chapter reviews architectural models of visualisation, data man-
+agement, analysis, dissemination and communication components and outlines
+the inherent challenges. Opportunities and next steps for current research are
+subsequently identified which encourage a collaborative multidisciplinary effort
+to provide a much needed flexible infrastructure.
+Chapter 7 discusses visual perception and cognitive issues - human aspects Alan Dix
+Margit Pohl
+Geoffrey Ellis
+of visual analytics. Following a review of the psychology of perception
+and cognition, distributed cognition, problem solving, particular interaction
+issues, the authors suggest that we can learn much from early application
+6 Introduction
+examples. Challenges identified, include the provision of appropriate design
+methodologies and design guidelines, suitable for the expert analyst as well as
+the naive users; understanding the analysis process, giving the user confidence
+in the results, dealing with a wide range of devices and how to evaluate new
+designs.
+Chapter 8 explains the basic concept of evaluation for visual analytics, high- Jarke van Wijk
+Tobias Isenberg
+Jos B.T.M. Roerdink
+Alexandru C. Telea
+Michel Westenberg
+lighting the complexities for evaluating systems that involve the close coupling
+of the user and semi-automatic analytical processes through a highly interactive
+interface. The exploratory tasks associated with visual analytics are often
+open ended and hence it is difficult to assess the effectiveness and efficiency
+of a particular method, let alone make comparisons between methods. The
+state of the art section outlines empirical evaluation methodologies, shows
+some examples of evaluation and describes the development of contests in
+different sub-communities to evaluate visual analytics approaches on common
+datasets. The authors then argue that a solid evaluation infrastructure for
+visual analytics is required and put forward some recommendations on how
+to achieved this.
+Chapter 9 summarises the challenges of visual analytics applications as identi- Geoffrey Ellis
+Daniel A. Keim
+Jörn Kohlhammer
+fied by the chapter authors and presents concrete recommendations for funding
+agencies, the visual analytics community, the broader research community
+and potential users of visual analytics technology in order to ensure the rapid
+advancement of the science of visual analytics.
